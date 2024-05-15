@@ -1,0 +1,59 @@
+# Ignorar arquivos e diretórios gerados pelo Visual Studio
+.vscode/
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+*.log
+*.vsixmanifest
+VersionInfo.cs
+[Tt]humbs.db
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+node_modules/
+npm-debug.log
+yarn-error.log
+*.bak
+*.bak.*
+*.publishsettings
+ipch/
+*.sln.docstates
+
+# Ignorar diretórios específicos
+# /DirectoryToIgnore/
+
+# Ignorar arquivos específicos
+# /FileToIgnore.extension
+
+# Ignorar arquivos de configuração
+*.swp
+*.swn
+*.swo
+*~
+*.cache
+*.DS_Store
+
+# Ignorar arquivos de compilação e saída
+[Tt]est[Rr]esult*/
+[Bb]in/
+[Oo]bj/
+
+# Ignorar arquivos temporários
+[Tt]emp/
+[Tt]mp/
+
+# Ignorar arquivos de pacotes NuGet
+packages/
+*.nupkg
+*.paket.sha
+.paket/
+
+# Ignorar arquivos de compilação do MSBuild
+build/
+[Bb]in/
+[Oo]bj/
